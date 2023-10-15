@@ -7,14 +7,14 @@ export const Container = styled.button`
   border: 0;
   padding: 0 16px;
   border-radius: 7px;
-  font-size: 14px;
-  
+  font-size: 1.4rem;
+
   display: flex;
   align-items: center;
   gap: 7px;
 
   > svg {
-    font-size: 18px;
+    font-size: 1.8rem;
     color: ${({ theme }) => theme.COLORS.RED_200};
   }
 `;

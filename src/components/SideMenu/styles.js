@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.aside`
   grid-area: menu;
@@ -21,7 +21,7 @@ export const Title = styled.h1`
   align-items: center;
   gap: 7px;
   color: ${({ theme }) => theme.COLORS.BLUE_200};
-  font-size: 24px;
+  font-size: 2.4rem;
 `;
 
 export const Nav = styled.nav`
@@ -36,9 +36,9 @@ export const Nav = styled.nav`
     gap: 7px;
     padding-left: 24px;
     height: 56px;
-    font-size: 16px;
+    font-size: 1.6rem;
 
-    &[data-menu-active="true"] {
+    &[data-menu-active='true'] {
       background-color: ${({ theme }) => theme.COLORS.BLUE_200};
       color: ${({ theme }) => theme.COLORS.BLUE_600};
     }
@@ -64,20 +64,19 @@ export const Footer = styled.footer`
   }
 
   > div strong {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   > div small {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 `;
 
 export const Button = styled.button`
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 
   > svg {
-    font-size: 20px;
+    font-size: 2rem;
     color: ${({ theme }) => theme.COLORS.GRAY_300};
   }
 `;
-

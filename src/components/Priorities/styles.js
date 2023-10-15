@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.section`
   padding: 32px;
@@ -10,7 +10,7 @@ export const Header = styled.header`
   align-items: center;
 
   > h1 {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: ${({ theme }) => theme.COLORS.RED_200};
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@ export const Header = styled.header`
 `;
 
 export const Tasks = styled.div`
-  border: 1px dashed  ${({ theme }) => theme.COLORS.RED_200};
+  border: 1px dashed ${({ theme }) => theme.COLORS.RED_200};
   min-height: 154px;
   border-radius: 7px;
   margin-top: 16px;
